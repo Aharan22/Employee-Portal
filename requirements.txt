@@ -1,0 +1,5 @@
+flask
+sqlalchemy
+opencv-python-headless
+dlib
+numpy

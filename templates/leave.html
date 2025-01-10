@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Leave</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Request Leave</h1>
+    </header>
+    <main>
+        <form method="POST" action="/leave">
+            <label for="reason">Reason for Leave:</label>
+            <textarea id="reason" name="reason" rows="5" required></textarea>
+            <button type="submit" class="btn">Submit Leave Request</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ontash. All rights reserved.</p>
+    </footer>
+</body>
+</html>
